@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import { Input } from "../../components/ui/input";
 import { Button } from "../../components/ui/button";
 import { Send } from "lucide-react";
-import { useEffect } from "react";
+
 
 type FormData = {
   chatInput: string;

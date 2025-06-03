@@ -100,7 +100,7 @@ const ChatPage = () => {
             <ResponseSpace chatHistory={chatHistory} isLoading={isLoading} />
           </Card>
         )}
-      
+
       </div>
       <ChatInput onSend={handleSendMessage} />
     </>
