@@ -2,6 +2,7 @@
 import { useState } from "react";
 import ChatInput from "./components/ChatInput";
 import ResponseSpace from "./components/ResponseSpace";
+// import { Poppins, Nunito } from 'next/font/google';
 // import { Label } from "../components/ui/label";
 
 
@@ -94,9 +95,12 @@ const ChatPage = () => {
           </Select>
         </div>
       </Card> */}
+      <div className="flex items-center justify-center">
+  <h1 className={"text-4xl md:text-6xl font-bold text-center p-4"}>❤️ Nishan`&apos;`s Grammar classes for Nenc 👩🏻‍🏫</h1>
+      </div>
       <div className="flex flex-col md:flex-row gap-4">
         {chatHistory.length > 0 && (
-          <Card className="w-2xl p-4 my-2 mx-auto overflow-y-auto">
+          <Card className="w-screen p-4 my-2 mx-auto overflow-y-auto">
             <ResponseSpace chatHistory={chatHistory} isLoading={isLoading} />
           </Card>
         )}
