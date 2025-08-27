@@ -96,7 +96,7 @@ const ChatPage = () => {
         </div>
       </Card> */}
       <div className="flex items-center justify-center">
-  <h1 className={"text-4xl md:text-6xl font-bold text-center p-4"}>❤️ Nishan`&apos;`s Grammar classes for Nenc 👩🏻‍🏫</h1>
+  <h1 className={"text-4xl md:text-6xl font-bold text-center p-4"}>❤️ Nishan &apos;s Grammar classes for Nenc 👩🏻‍🏫</h1>
       </div>
       <div className="flex flex-col md:flex-row gap-4">
         {chatHistory.length > 0 && (
