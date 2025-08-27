@@ -2,16 +2,16 @@
 import { useState } from "react";
 import ChatInput from "./components/ChatInput";
 import ResponseSpace from "./components/ResponseSpace";
-import { Label } from "../components/ui/label";
+// import { Label } from "../components/ui/label";
 
 
-import {
-  Select,
-  SelectTrigger,
-  SelectValue,
-  SelectContent,
-  SelectItem,
-} from "../components/ui/select";
+// import {
+//   Select,
+//   SelectTrigger,
+//   SelectValue,
+//   SelectContent,
+//   SelectItem,
+// } from "../components/ui/select";
 import { Card } from "../components/ui/card";
 
 export type MessagePair = {
@@ -23,7 +23,7 @@ export type MessagePair = {
 const ChatPage = () => {
   const [chatHistory, setChatHistory] = useState<MessagePair[]>([]);
   const [isLoading, setIsLoading] = useState(false);
-  const [llmModel, setLLMModel] = useState("gemini");
+  const [llmModel] = useState("gemini");
 
   const handleSendMessage = async (msg: string) => {
   setIsLoading(true);
