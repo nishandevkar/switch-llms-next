@@ -80,7 +80,7 @@ const ChatPage = () => {
 
   return (
     <>
-      <Card className="w-2xl p-4 my-4 mx-auto">
+      {/* <Card className="w-2xl p-4 my-4 mx-auto">
         <div className="space-y-2">
           <Label htmlFor="select-model">Select Model</Label>
           <Select value={llmModel} onValueChange={setLLMModel}>
@@ -93,7 +93,7 @@ const ChatPage = () => {
             </SelectContent>
           </Select>
         </div>
-      </Card>
+      </Card> */}
       <div className="flex flex-col md:flex-row gap-4">
         {chatHistory.length > 0 && (
           <Card className="w-2xl p-4 my-2 mx-auto overflow-y-auto">

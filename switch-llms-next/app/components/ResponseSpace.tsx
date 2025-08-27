@@ -20,7 +20,7 @@ const ResponseSpace = ({ chatHistory, isLoading }: ResponseSpaceProps) => {
   }, [chatHistory]);
 
   return (
-    <div className="p-4 my-2 overflow-y-auto max-h-[calc(100vh-30vh)] flex flex-col gap-2">
+    <div className="pr-6 my-2 overflow-y-auto max-h-[calc(100vh-30vh)] max-w-screen flex flex-col gap-2">
       {chatHistory.map((pair, index) => {
         const bubbleColor = getBubbleColor(pair.model);
 
